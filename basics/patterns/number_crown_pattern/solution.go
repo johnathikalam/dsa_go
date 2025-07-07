@@ -7,7 +7,7 @@ func pattern(n int) {
 		for j := 0; j <= i; j++ {
 			fmt.Printf("%d", j+1)
 		}
-		for j := 0; j < 2*(n-i)-2; j++ {
+		for j := 0; j < 2*(n-i-1); j++ {
 			fmt.Printf(" ")
 		}
 		for j := 0; j <= i; j++ {
