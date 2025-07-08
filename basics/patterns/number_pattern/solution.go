@@ -20,7 +20,7 @@ func pattern(n int) {
 		}
 		fmt.Print("\n")
 	}
-	for i := 1; i <= n; i++ {
+	for i := 2; i <= n; i++ {
 		for j := n; j >= 1; j-- {
 			if j <= i {
 				fmt.Printf("%d ", i)
